@@ -20,7 +20,7 @@ class LendService {
 
     LendResult lendBook(Book book, Customer customer) {
 
-        if (Lend.countByBook(book)) {
+        if (Lend.countByBook(book) > 1) {
             // ...
         }
 
