@@ -21,7 +21,7 @@ class LendService {
     LendResult lendBook(Book book, Customer customer) {
 
         if (Lend.countByBook(book)) {
-            // ...
+            println "Muuaahaa!"
         }
 
         Date now = dateService.now()
