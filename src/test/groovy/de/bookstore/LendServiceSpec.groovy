@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat
 class LendServiceSpec extends Specification {
 
     TestDataService testDataService
-
+///dies ist ein test
     def setup() {
         testDataService = new TestDataService()
         testDataService.createTestData()
